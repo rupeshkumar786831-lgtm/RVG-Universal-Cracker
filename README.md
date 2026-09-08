@@ -1,44 +1,22 @@
-# 🔐 RVG Universal Password Cracker
+# 🔐 Universal Password Cracker
 
-**ZIP | RAR | 7Z | PDF | DOCX | XLSX | PPTX | APK**
-
-A powerful, universal password cracking tool for encrypted files. Built for educational and security testing purposes.
+A powerful multi-format password cracker for security testing and recovery. Supports **ZIP, RAR, 7Z, PDF, DOCX, XLSX, PPTX, APK** files.
 
 ---
 
-## 📌 Features
+## ⚡ Features
 
-- ✅ **Multi-format support** — ZIP, RAR, 7Z, PDF, MS Office (DOCX/XLSX/PPTX), APK
-- ✅ **Hidden input** — File paths are hidden while typing (privacy)
-- ✅ **Auto-loop** — Crack multiple files without restarting
-- ✅ **Auto-search** — Automatically finds files in `/sdcard/Download/`, `/sdcard/`, and current directory
-- ✅ **Progress display** — Shows attempts, speed, and percentage
-- ✅ **Speed tracking** — Passwords/sec display
-- ✅ **Lightweight** — No GUI, runs in terminal (Termux/Linux)
+- ✅ ZIP, RAR, 7Z, PDF, MS Office, APK cracking
+- ✅ Hidden input — file paths are hidden while typing
+- ✅ Auto-loop — crack multiple files without restarting
+- ✅ Progress display — shows attempts and speed
 
 ---
 
-## 🛠️ Supported File Types
-
-| Extension | Type |
-|-----------|------|
-| `.zip` | ZIP Archive |
-| `.rar` | RAR Archive |
-| `.7z` | 7-Zip Archive |
-| `.pdf` | PDF Document |
-| `.docx` | Word Document |
-| `.xlsx` | Excel Document |
-| `.pptx` | PowerPoint |
-| `.apk` | Android APK |
-
----
-
-## 📦 Requirements
-
-- Python 3.7+
-- Termux (for Android) or Linux terminal
-
-### Python Dependencies
+## 🛠️ Installation
 
 ```bash
-pip install rarfile py7zr pikepdf pycryptodome
+git clone https://github.com/YOUR_USERNAME/universal-cracker.git
+cd universal-cracker
+pip install -r requirements.txt
+termux-setup-storage
