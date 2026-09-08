@@ -16,7 +16,7 @@ A powerful multi-format password cracker for security testing and recovery. Supp
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/universal-cracker.git
+git clone https://github.com/rupeshkumar786831-lgtm/RVG-Universal-Cracker.git
 cd universal-cracker
 pip install -r requirements.txt
 termux-setup-storage
